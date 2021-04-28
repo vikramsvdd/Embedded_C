@@ -5,7 +5,7 @@
 
 int main()
 {
-    uint16_t = temp=0;
+    uint16_t temp=0;
     unsigned int duty;
 
     perpheral_io(); // initialising all peripherals and pin configurations
