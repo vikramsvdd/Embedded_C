@@ -9,6 +9,7 @@
 void UART_init()
 {
     //setting Baud rate
+    value=BAUD_RATE;
     UBRR0H =(value>>8)&0x0ff;
     UBRR0L = value;
     UCSR0C=(1<<UMSEL00)|(1<<UCSZ01)|(1<<UCSZ00);
