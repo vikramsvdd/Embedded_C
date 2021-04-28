@@ -22,5 +22,5 @@ void Init_adc();
  * @param channel
  * @return uint16_t 
  */
-uint16_t Get_ADC(uint8_t channel );
+uint16_t Get_ADC(uint8_t channel);
 #endif
