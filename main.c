@@ -22,7 +22,7 @@ int main()
             UART_WRITE(temp); // write the temperature data to the UART buffer
              for(duty=0;duty<1024;duty++)// giving pwm output 
           {
-              OCCR1A=duty;
+              OCR1A=duty;
           }
 
         }
