@@ -18,13 +18,9 @@ int main()
         {
             LED_ON(); // turn ON led
             temp=Get_ADC(0); // read temp value from channel 0
-            UART_READ(temp);
+            out_PWM(temp); 
+            //UART_READ(temp);
             UART_WRITE(temp); // write the temperature data to the UART buffer
-             for(duty=0;duty<1024;duty++)// giving pwm output 
-          {
-              OCR1A=duty;
-          }
-
         }
         
         else 
