@@ -21,5 +21,5 @@ void set_PWM(void);
  * 
  * @param ADC 
  */
-void out_PWM (uint16_t ADC);
+void out_PWM (uint16_t);
 #endif
