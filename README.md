@@ -2,4 +2,4 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|[![Build]([![Build](https://github.com/Rahul-S-Iyer/Embedded_C/actions/workflows/Build.yml/badge.svg)](https://github.com/Rahul-S-Iyer/Embedded_C/actions/workflows/Build.yml))|[![Cppcheck]()|[![Codacy Badge]()|
+|[![Build](https://github.com/Rahul-S-Iyer/Embedded_C/actions/workflows/Build.yml/badge.svg)](https://github.com/Rahul-S-Iyer/Embedded_C/actions/workflows/Build.yml))|[![Cppcheck](https://github.com/Rahul-S-Iyer/Embedded_C/actions/workflows/Cppcheck.yml/badge.svg)](https://github.com/Rahul-S-Iyer/Embedded_C/actions/workflows/Cppcheck.yml)|[![Codacy Badge]()|
