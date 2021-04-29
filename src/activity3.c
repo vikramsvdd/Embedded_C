@@ -12,7 +12,7 @@ void set_PWM(void)
      TCCR1B |= (1<<WGM12)| (1<<CS11) | (1<<CS10);
 }
 
-void out_PWM(uint16_t ADC)
+void out_PWM(uint16_t)
 {
     if((ADC>=0) && (ADC<=209))
     {
