@@ -17,8 +17,9 @@
  */
 void set_PWM(void);
 /**
- * @brief Function to give PWM output
+ * @brief 
  * 
+ * @param ADC 
  */
 void out_PWM (uint16_t ADC);
 #endif
