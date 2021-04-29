@@ -5,7 +5,7 @@
 
 void set_PWM(void)
 {
-    DDRB |= (1<<PB1);// setting B1 port as pwm output for timer1
+    DDRB |= (1<<PWM_PORT);// setting B1 port as pwm output for timer1
     
      // setting compare output match A mode for timer 1  in non-inverting mode and setting the prescalars(64) 
      TCCR1A |= (1<<COM1A1) | (1<<WGM11) | (1<<WGM10); 
