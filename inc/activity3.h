@@ -10,7 +10,7 @@
  * @copyright Copyright (c) 2021
  * 
  */
-
+#define PWM_PORT (PB1)
 /**
  * @brief Function to set the PWM output
  * 
