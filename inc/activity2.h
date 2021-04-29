@@ -1,7 +1,7 @@
 #ifndef _ACTIVITY2_h_
 #define _ACTIVITY2_h_
 /**
- * @file activity1.h
+ * @file activity2.h
  * @author Rahul S Iyer
  * @brief 
  * @version 0.1
