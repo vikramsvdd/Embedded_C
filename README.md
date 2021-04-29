@@ -2,4 +2,4 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|[![Compile-Linux]()|[![Cppcheck]()|[![Codacy Badge]()|
+|[![Build]([![Build](https://github.com/Rahul-S-Iyer/Embedded_C/actions/workflows/Build.yml/badge.svg)](https://github.com/Rahul-S-Iyer/Embedded_C/actions/workflows/Build.yml))|[![Cppcheck]()|[![Codacy Badge]()|
