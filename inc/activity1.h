@@ -23,7 +23,7 @@
 #define BUTTON_STATUS (PINB)
 
 #define HEATER_PORT (PORTC)
-#define HEATER_PIN (PC0)
+#define HEATER_PIN (PC1)
 #define HEATER_STATUS (PINC)
 /**
  * Include files
