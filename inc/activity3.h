@@ -12,8 +12,13 @@
  */
 #define PWM_PORT (PB1)
 /**
- * @brief Function to set the PWM output
+ * @brief Function to initialise the PWM output
  * 
  */
 void set_PWM();
+/**
+ * @brief Function to give PWM output
+ * 
+ */
+void out_PWM(uint16_t ADC);
 #endif
