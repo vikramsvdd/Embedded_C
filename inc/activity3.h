@@ -15,10 +15,10 @@
  * @brief Function to initialise the PWM output
  * 
  */
-void set_PWM();
+void set_PWM(void);
 /**
  * @brief Function to give PWM output
  * 
  */
-void out_PWM(uint16_t ADC);
+void out_PWM (uint16_t ADC);
 #endif
