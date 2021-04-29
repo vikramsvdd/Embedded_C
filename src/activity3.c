@@ -12,27 +12,27 @@ void set_PWM(void)
      TCCR1B |= (1<<WGM12)| (1<<CS11) | (1<<CS10);
 }
 
-void out_PWM(uint16_t ADC)
+void out_PWM(uint16_t val)
 {
-    if((ADC>=0) && (ADC<=209))
+    if((val>=0) && (val<=209))
     {
 
         OCR1A = 205; //20% duty cycle
         
     }
-    else if((ADC>=210) && (ADC<=509))
+    else if((val>=210) && (val<=509))
     {
 
         OCR1A = 410; //40% duty cycle
         
     }
-    else if((ADC>=510) && (ADC<=709))
+    else if((val>=510) && (val<=709))
     {
 
         OCR1A = 717;//70% duty cycle
         
     }
-    else if((ADC>=710) && (ADC<=1024))
+    else if((val>=710) && (val<=1024))
     {
 
         OCR1A = 973; //95% duty cycle
